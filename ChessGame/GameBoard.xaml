@@ -9,10 +9,71 @@
       Title="GameBoard">
 
     <UniformGrid Margin="10" Rows="8" Columns="8">
-        <Label Grid.Row="0" Grid.Column="0" Background="Red"   Content="Lorem"/>
-        <Label Grid.Row="1" Grid.Column="0" Background="White" Content="Lorem ipsum"/>
-        <Label Grid.Row="0" Grid.Column="1" Background="White" Content="Lorem ipsum dolor"/>
-        <Label Grid.Row="1" Grid.Column="1" Background="Red"   Content="Lorem ipsum dolor sit"/>
+        
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
+        <Border Background="#b5651d" ></Border>
+        <Border Background="#f5f5f5" ></Border>
     </UniformGrid>
     
 </Page>
