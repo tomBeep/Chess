@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace ChessGame.Model
 {
+    //Locations start at 1,1 in the bottom left. (Like a graph)
     class Location
     {
-        int row { get; set; }
-        int col { get; set; }
+        public int row { get; set; }
+        public int col { get; set; }
 
         public Location(int row, int col)
         {
