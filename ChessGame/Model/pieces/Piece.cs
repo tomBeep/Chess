@@ -8,11 +8,11 @@ namespace ChessGame.Model
 {
     abstract class Piece
     {
-        Location location;
+        public Location location;
 
-        string name { get; set; }
+        public string name { get; set; }
 
-        Color color { get; set; }
+        public Color color { get; set; }
 
         protected Piece(Location location, string name, Color color)
         {

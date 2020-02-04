@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessGame.Model
 {
-    //Locations start at 1,1 in the bottom left. (Like a graph)
+    //Chess Locations start at 1,1 in the bottom left. (Like a graph)
     class Location
     {
         public int row { get; set; }
@@ -16,6 +16,27 @@ namespace ChessGame.Model
         {
             this.row = row;
             this.col = col;
+        }
+
+        public override bool Equals(Object o)
+        {
+            if(o is Location)
+            {
+                Location l = (Location) o;
+                return l.row == this.row && l.col == this.col;
+            }
+            return false;
+        }
+
+        public override string ToString()
+        {
+            char c = (char)(col+64);
+            return "" + c + row;
+        }
+
+        public int FlatBoardPos()
+        {
+            return (row-1) * 8 + col;
         }
     }
 }

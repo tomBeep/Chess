@@ -8,6 +8,10 @@ namespace ChessGame.Model
 {
     class Game
     {
-
+        public Board board;
+        public Game()
+        {
+            this.board = new Board();
+        }
     }
 }

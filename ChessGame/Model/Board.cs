@@ -10,16 +10,17 @@ namespace ChessGame.Model
     class Board
     {
         public List<Piece> board;
+        public List<Piece> graveyard;
 
         // Creates a standard Chess board with pieces in the standard positions
         public Board()
         {
             board = new List<Piece>(32);
-
-            AddPiecesStandard();
+            graveyard = new List<Piece>();
+            AddPieces_StandardFormat();
         }
 
-        private void AddPiecesStandard()
+        private void AddPieces_StandardFormat()
         {
             //whites pieces
             this.addPiece(new Rook(new Location(1, 1), Color.White));
@@ -56,17 +57,18 @@ namespace ChessGame.Model
 
         public void addPiece(Piece newPiece)
         {
-
+            board.Add(newPiece);
         }
 
         public void removePiece(Piece toBeRemoved)
         {
-
+            board.Remove(toBeRemoved);
+            graveyard.Add(toBeRemoved);
         }
 
         public void removeAtLocation(Location l)
         {
-
+            board.RemoveAll(piece => piece.location.Equals(l));
         }
 
         public Board clone()

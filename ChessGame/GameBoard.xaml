@@ -8,8 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="GameBoard">
 
-    <UniformGrid Margin="10" Rows="8" Columns="8">
-        
+    <UniformGrid Margin="10" Rows="8" Columns="8" Name="grid">
         <Border Background="#f5f5f5" ></Border>
         <Border Background="#b5651d" ></Border>
         <Border Background="#f5f5f5" ></Border>
