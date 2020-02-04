@@ -21,38 +21,34 @@ namespace ChessGame
     /// </summary>
     public partial class GameBoard : Page
     {
+        Game game;
         public GameBoard()
         {
             InitializeComponent();
+            game = new Game();
+            refreshBoard();
+         }
 
-            Game g = new Game();
-            List <Piece> ls =  g.board.board;
+        public void refreshBoard()
+        {
+            List<Piece> ls = game.board.board;
+            clearBoard();
+
+            // Looks at each piece on the board and assigns the correct image to the correct square.
             foreach (Piece p in ls)
             {
                 Image i = new Image();
                 i.Source = ImageLoader.getImage(p);
-                Border square = (Border) VisualTreeHelper.GetChild(grid, p.location.FlatBoardPos()-1);
+                Border square = (Border)VisualTreeHelper.GetChild(grid, (64 - p.location.FlatBoardPos()));
                 square.Child = i;
             }
         }
-
-        public static IEnumerable<T> FindVisualChildren<T>(DependencyObject depObj) where T : DependencyObject
+        public void clearBoard()
         {
-            if (depObj != null)
+            for(int i = 0; i<64; i++)
             {
-                for (int i = 0; i < VisualTreeHelper.GetChildrenCount(depObj); i++)
-                {
-                    DependencyObject child = VisualTreeHelper.GetChild(depObj, i);
-                    if (child != null && child is T)
-                    {
-                        yield return (T)child;
-                    }
-
-                    foreach (T childOfChild in FindVisualChildren<T>(child))
-                    {
-                        yield return childOfChild;
-                    }
-                }
+                Border square = (Border)VisualTreeHelper.GetChild(grid, i);
+                square.Child = null;
             }
         }
     }
