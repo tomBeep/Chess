@@ -5,74 +5,75 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ChessGame"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="GameBoard">
+      d:DesignHeight="850" d:DesignWidth="1000"
+      Title="GameBoard"
+      >
 
-    <UniformGrid Margin="10" Rows="8" Columns="8" Name="grid">
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
-        <Border Background="#b5651d" ></Border>
-        <Border Background="#f5f5f5" ></Border>
+    <UniformGrid Margin="10" Rows="8" Columns="8" Name="grid" MouseLeftButtonUp="Mouse_Released">
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#b5651d" MouseLeftButtonDown="Mouse_Pressed" ></Border>
+        <Border Background="#f5f5f5" MouseLeftButtonDown="Mouse_Pressed" ></Border>
     </UniformGrid>
     
 </Page>
